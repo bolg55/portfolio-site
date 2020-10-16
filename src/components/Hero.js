@@ -27,14 +27,13 @@ const Hero = () => {
       <div className="section-center hero-center">
         <article className="hero-info">
           <div>
-            <div className="underline">
-              <h1>i'm Kellen</h1>
-              <h4>a freelance web developer</h4>
-              <Link to="/contact" className="btn">
-                contact me
-              </Link>
-              <SocialLinks />
-            </div>
+            <div className="underline"></div>
+            <h1>i'm Kellen</h1>
+            <h4>a freelance web developer</h4>
+            <Link to="/contact" className="btn">
+              contact me
+            </Link>
+            <SocialLinks />
           </div>
         </article>
         <Image fluid={fluid} className="hero-img" />
