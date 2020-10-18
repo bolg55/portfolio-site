@@ -239,6 +239,7 @@ Navbar
   color: var(--clr-primary-5);
   cursor: pointer;
   transition: var(--transition);
+  outline: none;
 }
 .toggle-btn:hover {
   color: var(--clr-primary-2);
@@ -331,6 +332,7 @@ Sidebar
   border-color: transparent;
   color: var(--clr-red-dark);
   cursor: pointer;
+  outline: none;
 }
 @media screen and (min-width: 992px) {
   .sidebar {
@@ -674,6 +676,7 @@ Projects
   font-weight: 500;
   margin-bottom: 1.5rem;
   font-size: 1.5rem;
+  text-transform: none;
 }
 .project-desc {
   word-spacing: 15px;
@@ -844,6 +847,7 @@ Footer
 .footer h4 span {
   color: var(--clr-primary-5);
 }
+
 .footer-links {
   margin: 0 auto 1rem auto;
 }
@@ -979,7 +983,6 @@ Contact Page
   margin-bottom: 1.25rem;
   background: var(--clr-grey-10);
   border-radius: var(--radius);
-  text-transform: uppercase;
   letter-spacing: var(--spacing);
 }
 .form-control::placeholder {
